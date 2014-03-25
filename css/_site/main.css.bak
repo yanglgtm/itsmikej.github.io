@@ -69,7 +69,7 @@ a:visited { color: #a0a; }
 }
 
 .title {
-  font-size: 18px;
+  font-size: 16px;
   display: inline-block;
   margin-bottom: 2em;
 }
@@ -105,7 +105,7 @@ a:visited { color: #a0a; }
 
 .footer .contact {
   float: left;
-  margin-right: 2em;
+  margin-right: 3em;
 }
 
 .footer .contact a {
@@ -129,8 +129,6 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 /* standard */
-
-
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -160,21 +158,4 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
-}
-
-.m_previous_next{
-  margin: 2em 0;
-  padding: 1em 0;
-  border-top: 4px solid #eee;
-  color: #555;
-  font-size: 90%;
-}
-.m_previous_next #prev{
-  float: left;
-  width: 50%;
-}
-.m_previous_next #next{
-  float: right;
-  width: 50%;
-  text-align: right;
 }
