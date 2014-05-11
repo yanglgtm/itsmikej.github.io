@@ -53,12 +53,23 @@ function Person(name){
 var p1 = new Person('mikej');
 var p2 = new Person('tom');
 {% endhighlight %}
+
 这里有几个值得关注的地方：没有显示的创建对象、函数名Person使用的是大写字母P（这是必须的）、p1和p2中都有一个constructor（构造函数）属性，指向Person。同时p1和p2既是Object的实例，也是Person的实例。
 {% highlight javascript %}
 alert(p1.constructor == Person); //true
 alert(p1 instanceof Object); //true
 alert(p1 instanceof Person); //true
 {% endhighlight %}
+
+//5.11更新：以一个phper的角度看的话，之前很容易将创建对象的流程想成这样，Person就是一个“类”，然后用`new Person('mikej')`实例化了这个类，并且传入参数。但实际上并不是这样的，创建的流程应该是这样：首先，创建一个空对象，然后用apply方法，第一个参数是这个空对象，第二个参数是上下文的参数，这样Person中的this就会指向这个对象，也就是p1。
+
+{% highlight javascript %}
+var p1 = new Person('mikej');
+//上面代码就相当于
+var p1 = {};
+Person.apply(p1, ['mikej']);
+{% endhighlight %}
+
 构造函数模式看上去很好，但是它有一个弊端就是浪费内存，接上例
 {% highlight javascript %}
 alert(p1.say == p2.say) //false
