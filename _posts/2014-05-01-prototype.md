@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: default
 title: "JavaScript中的原型与原型链"
+author: itsmikej
 ---
 
 JavaScript没有类的概念，但几乎所有的东西又是基于对象的，同时也能实现继承，这就是js跟其他OOP语言最大的不同之处，这也是js最难理解的一块。下面我来说说我个人的理解。

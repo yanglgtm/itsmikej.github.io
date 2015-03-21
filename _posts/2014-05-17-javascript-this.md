@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: default
 title:  "JavaScript中的this"
+author: itsmikej
 ---
 
 在类似PHP的传统OO语言中，this关键字的含义很明确，就是指当前对象，但javascript中的this却不是这样，它有很强的灵活性。它可以是全局对象，当前对象，也可以是任意对象。

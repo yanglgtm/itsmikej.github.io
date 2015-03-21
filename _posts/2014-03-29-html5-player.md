@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: default
 title: 迷你Html5播放器
+author: itsmikej
 ---
 
 花了点时间写了一个基于Html5的播放器，主要利用了Html5 Audio API来实现各种功能，页面还是用到了Bootstrap，做了些微调。
