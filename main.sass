@@ -22,14 +22,19 @@ body
 
 {% if site.style.serif-heading %}
 
+body
+    font-family: "Hiragino Sans GB","STHeiti","Microsoft YaHei","WenQuanYi Micro Hei",SimSun,sans-serif
+
 body > header h1
     font-weight: bold
+
+body > header > nav > ul
+    margin: 0px
+
 
 h1, h2, h3, h4, h5, h6 
     font-family: "Gentium Basic", serif
     letter-spacing: 2px
-    header &
-        text-transform: uppercase
 
 {% endif %}
 
@@ -49,7 +54,23 @@ nav ul
 article:nth-of-type(even)
     +article_background($even, $anchor)
 
-article:nth-of-type(odd)
-    +article_background($odd, $anchor)
+
+.pager
+    padding-bottom: 2em
+
+.pager li
+    list-style-type: none
+
+.pager .previous
+    float: left
+
+.pager .next
+    float: right
+
+code
+    padding: 2px 4px
+    color: #B94A48
+p > code
+    background: #F3F3F0
 
 @import vendor
