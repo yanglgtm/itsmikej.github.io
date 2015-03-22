@@ -27,13 +27,5 @@ style:
         even: "#ffffff"
         #even: "#222222"
 
-links:
-  - github: "https://github.com/itsmikej/"
-  - twitter: "https://twitter.com/me/"
-  - google-plus: "https://plus.google.com/+me"
-  - reddit: "https://www.reddit.com/user/me/"
-  - youtube: "https://www.youtube.com/user/me"
-  - steam: "http://steamcommunity.com/id/me/"
-
 excerpt_separator: "<!--more-->"
 defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
