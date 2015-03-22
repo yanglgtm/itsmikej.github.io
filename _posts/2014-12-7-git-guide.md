@@ -2,6 +2,7 @@
 layout: default
 title:  "Git常用命令笔记"
 author: itsmikej
+category: tool
 ---
 
 ## Base
@@ -27,7 +28,7 @@ author: itsmikej
 `git remote add origin 远程库地址` origin是远程库的名字，可更改
 
 `git push -u origin master` 将本地库的所有内容推送到远程库上
-
+<!--more-->
 **SSH端口修改**
 
 * 修改URL `git remote set-url origin ssh://git@domain.com:3022/path/p1.git`

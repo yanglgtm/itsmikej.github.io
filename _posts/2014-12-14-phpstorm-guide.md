@@ -2,6 +2,7 @@
 layout: default
 title:  "PhpStorm使用技巧"
 author: itsmikej
+category: tool
 ---
 
 ## 安装
@@ -19,7 +20,7 @@ author: itsmikej
 
 * linux `~/.WebIde80/config/colors`
 * mac `~/Library/Preferences/WebIde80/colors/`
-
+<!--more-->
 ## 创建文件
 * 创建：`command+up` -> `command+n`
 * 自定义新建文件模版：Preferences->File and Code Templates<!--<img src="http://ww2.sinaimg.cn/large/77691203gw1emd7ryw7gej20qh0etdhb.jpg" width="600">-->

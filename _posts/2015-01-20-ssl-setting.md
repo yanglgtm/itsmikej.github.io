@@ -2,6 +2,7 @@
 layout: default
 title:  "Linux SSL配置"
 author: itsmikej
+category: linux
 ---
 
 ## 1.申请证书

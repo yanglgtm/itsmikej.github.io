@@ -2,6 +2,7 @@
 layout: default
 title:  "Composer使用指南"
 author: itsmikej
+categories: [php, tool]
 ---
 
 ## 安装
@@ -36,7 +37,7 @@ author: itsmikej
 * 赋值运算符：`~1.2` 表示下一个重要的版本都行，允许版本好`最后一位数字`上升。比如：`~1.2` 相当于 `>=1.2,<2.0`，而 `~1.2.3` 相当于 `>=1.2.3,<1.3`。
 
 autoload 字段 可以注册自己的autoloader。
-
+<!--more-->
 如上例：此时 src 会在你项目的根目录，与 vendor 文件夹同级。例如 src/Foo.php 文件应该包含 Acme\Foo 类。
 
 也可以通过如下方法添加更多的autoloader。

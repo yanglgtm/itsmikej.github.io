@@ -2,6 +2,7 @@
 layout: default
 title:  "Git服务搭建"
 author: itsmikej
+category: linux
 ---
 
 1. 安装git: `sudo apt-get install git`

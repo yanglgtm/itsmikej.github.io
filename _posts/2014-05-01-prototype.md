@@ -2,6 +2,7 @@
 layout: default
 title: "JavaScript中的原型与原型链"
 author: itsmikej
+category: javascript
 ---
 
 JavaScript没有类的概念，但几乎所有的东西又是基于对象的，同时也能实现继承，这就是js跟其他OOP语言最大的不同之处，这也是js最难理解的一块。下面我来说说我个人的理解。
@@ -39,7 +40,7 @@ var p1 = createPerson('mikej');
 var p2 = createPerson('tom');
 {% endhighlight %}
 这样就可以无限创建对象了。
-
+<!--more-->
 4.还有一种方法，跟工厂模式异曲同工，叫做构造函数模式：
 {% highlight javascript %}
 function Person(name){

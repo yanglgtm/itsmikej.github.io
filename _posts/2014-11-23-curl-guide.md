@@ -2,6 +2,7 @@
 layout: default
 title:  "Curl协议指南"
 author: itsmikej
+category: tool
 ---
 
 Curl是一种命令行工具，作用是发出网络请求，然后得到和提取数据，显示在"标准输出"（stdout）上面。它支持多种协议。
