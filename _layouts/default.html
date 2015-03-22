@@ -9,6 +9,20 @@ layout: blank
       <div>
 {{ content }}
       </div>
+
+        <div class="previous_next">
+            <div id="prev">
+                {%if page.previous%}
+                Prev: <a href="{{page.previous.url}}">{{page.previous.title | truncatewords:5}}</a>
+                {%endif%}
+            </div>
+            <div id="next">
+                {%if page.next%}
+                Next: <a href="{{page.next.url}}">{{page.next.title | truncatewords:5}}</a>
+                {%endif%}
+            </div>
+        </div>
+
       {% if site.comments.isso and page.comments %}
       <div id="isso-thread"></div>
       {% endif %}
